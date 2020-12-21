@@ -1,0 +1,48 @@
+body{
+    text-align:Center;
+   background-color:#b98dcc;
+  }
+  #para{
+    color:green;
+  }
+  #heading{
+    text-shadow:2px 2px;
+  }
+  img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+  }
+  .menu{
+      list-style:none;
+      font-family:cursive;
+      float:right;
+      top:10px;
+      right:30px;
+      cursor: pointer;
+      color:black;
+  }
+  .link{
+      float:right;
+      padding:10px;
+  }
+  .link:hover{
+      background-color:bisque;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  #pic1{
+    transition: transform .2s;
+    border:2px solid black;
+  }
+  #pic1:hover {
+    transform: scale(0.9);
+  }
+  #foot{
+    background-color:coral;
+  }
+  #myname{
+    text-decoration:none;
+    color:black;
+  }
